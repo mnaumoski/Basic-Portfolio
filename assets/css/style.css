@@ -1,0 +1,115 @@
+
+header {
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-top: 0px;
+  
+	
+}
+body {
+	/*width:960px;*/
+    background-image:url(pink_rice.png);
+    /*background-repeat:repeat-x;*/
+    background-repeat: repeat;
+    /*background-attachment: fixed;
+    background-position: center;*/
+    margin:0px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+li {
+	display: inline-block;
+	float: right;
+	border-left:1px solid #bbb;
+}
+li: first-child {
+	border-left: none;
+}
+#noborder {
+	border-left: none;
+}
+
+li a {
+    display: block;
+    background-color: white;
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    /*/*border-top: 20px;*/
+    
+}
+  
+li a:hover:not(.active) {
+    background-color: #4aaaa5;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+  #name {
+  	float:left;
+  	background-color: #4aaaa5;
+  	padding: 20px;
+  	color:white;
+  	font-size:30px;
+  	margin-left: 50px;
+  	/*margin-top: 20px;*/
+  	border:20px;
+
+  }
+
+  .main-section {
+  	clear: both;
+  	overflow: auto;
+	  background: white;
+	  border: 2px solid gray;
+	  padding: 45px;
+	  margin: 50px;
+	  width:640px;
+	  text-align: left;
+	  float: left;
+}
+
+#aboutmeborder {
+
+  border-bottom: 2px solid gray;
+  padding: 10px;
+}
+
+div > img {
+	float: left;
+	border-radius: 50%;
+	max-width: 25%;
+    height: auto;
+    display: block;
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 25px;
+
+}
+
+
+#blue-line {
+	clear: both;
+	overflow: auto;
+	background-color: #4aaaa5;
+	height: 10px;
+	width: 100%;
+
+}
+
+

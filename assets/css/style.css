@@ -139,10 +139,19 @@ div > img {
   margin: 40px;
   font-size:95%;
   padding: 20px;
-  margin-right: 10px;
+  margin-right: 30px;
   text-align: center;
 }   
 
+.box-set {
+  background:white;
+}
+
+.box {
+  background:white;
+  height: 80px;
+  width: 70px;
+}
 #blue-line {
 	clear: both;
 	overflow: auto;

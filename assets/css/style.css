@@ -55,7 +55,7 @@ li a {
     text-decoration: none;
     padding: 10px;
     font-size: 14px;
-    /*/*border-top: 20px;*/
+    
     
 }
   
@@ -73,7 +73,6 @@ li a:hover:not(.active) {
   	color:white;
   	font-size:30px;
   	margin-left: 110px;
-  	/*margin-top: 20px;*/
   	border:20px;
 
   }
@@ -90,17 +89,7 @@ li a:hover:not(.active) {
   width: 650px;
 	
 }
-#sidebar {
-  float: right;
-  width: 270px;
-  background: white;
-  border: 2px solid gray;
-  margin: 40px;
-  font-size:95%;
-  padding: 20px;
-  margin-right: 10px;
-  text-align: center;
-}   
+
 
 .aboutmeborder {
 
@@ -122,17 +111,38 @@ div > img {
   margin: 25px;
 
 }
-ul {
-margin:0;
-padding:0;
-list-style:none;
+
+#Linkedin img
+
+{
+  width:60px;
+  display: inline;
 }
 
-li {
- display:inline;
- margin:0;
-padding:0;
+#Github img
+{
+  width:60px;
+  display: inline;
+  border: none;
 }
+#Stack img {
+  
+  width:60px;
+  display: inline;
+
+}
+#sidebar {
+  float: right;
+  width: 270px;
+  background: white;
+  border: 2px solid gray;
+  margin: 40px;
+  font-size:95%;
+  padding: 20px;
+  margin-right: 10px;
+  text-align: center;
+}   
+
 #blue-line {
 	clear: both;
 	overflow: auto;
@@ -147,6 +157,7 @@ background:gray;
 color: white;
 text-align: center;
 }
+
 
 
 

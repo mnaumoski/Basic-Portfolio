@@ -1,4 +1,27 @@
+.row-paragraph {
+  padding-top:20px;
+}
 
+.img-thumbnail {
+  margin: 20px;
+}
+
+h1 {
+  font-family: Georgia, Times, Times New Roman, serif;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-image:url(pink_rice.png);
+  background-repeat: repeat;
+  margin:0px;
+  padding: 0px;
+  border:0px;
+  width: 100%;
+}
+
+/*
 header {
 	background-color: #ffffff;
 	border-bottom: 3px solid #cccccc;
@@ -93,6 +116,7 @@ li a:hover:not(.active) {
 
   width: 650px;
 	display: inline-block;
+
 }
 
 
@@ -101,9 +125,13 @@ li a:hover:not(.active) {
   border-bottom: 2px solid gray;
   padding: 0px;
   font-family: Georgia, Times, Times New Roman, serif;
-
+  background-color: white;
 }
 
+.col-md-9 {
+  background-color: white;
+
+}
 /*div > img {
 	float: left;
 	border-radius: 50%;
@@ -150,27 +178,49 @@ li a:hover:not(.active) {
   text-align: center;
 }   
 
-.box-set {
+/*.box-set {
   background:white;
   margin:auto;
   
-}
+}*/
 
-.box {
+/*box {
   background:white;
   height: 200px;
   width: 150px;
   display: inline-block;
   border: 2px solid gray;
-}
+}*/
+/*
+p {
+  color: white;
+  background-color: teal;
+  border: 3px solid black;
+*/
 
+
+/*img {
+  z-index: 0;
+}
+.overlaytext {
+  display: block;
+  color: white;
+  background-color: teal;
+  border: 2px solid gray;
+  padding: 20px;
+  z-index: 1;
+  margin-right: 300px;
+  border-bottom: */
+  
+}
+/*
 #blue-line {
 	clear: both;
 	overflow: auto;
 	background-color: #4aaaa5;
 	height: 30px;
 	width: 100%;
-}
+}*/
 
 #footer {
 clear:both;
@@ -179,6 +229,38 @@ color: white;
 text-align: center;
 }
 
+#name {
+    float:left;
+    background-color: #4aaaa5;
+    padding: 20px;
+    color:white;
+    font-size:30px;
+    margin-left: 80px;
+    border:20px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+  }
+
+.container {
+  padding: 80px;
+}
 
 
 
+/*.navbar-brand {
+
+  background-color: #ffffff;
+  border-bottom: 3px solid #cccccc;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border-top: 0px;
+  width: 100%;
+    background-color: #4aaaa5;
+    padding: 30px;
+    color: white;
+    font-size:30px;
+    margin: 0px;
+    border:0px;*/
+
+}
